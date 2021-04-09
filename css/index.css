@@ -100,19 +100,50 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
-.about-btn {
-  border: 2px solid black;
-  padding: 8px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: 2% 66% 0 0;
-  cursor: pointer;
-  border-radius: 10px;
+/* about.html middle content below */
+.mid-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 21%;;
 }
 
+.mid-child {
+    display: flex;
+    justify-content: space-evenly;
+    width: 99%;
+    margin: 1%;
+}
+
+.mid-grand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 1%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+}
+
+.mid-great-grand {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    margin: 1%;
+} 
+
+.about-btn {
+    border: 2px solid black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 2% 66% 0 0;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+/* index.html middle content below */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
