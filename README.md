@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    There are a myriad of HTML tags used to construct a webpage. Each tag has its own intended purpose or function. While you can often 'sub out' one tag for another (or use non semantic tags like <div> and <span>) and achieve the same or similar results, it is important to use the tag that best describes the work it is doing, eg., <header>, <p>, <article>, <nav>, etc. When tags are used semantically, a dev who is new to your project will have a clear idea of the intended purpose of the various sections and components of your page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    ```display: block;``` will take up the full width of the page and will appear as a block with vertical margin and padding. ```display: inline;```, on the other hand, will only take up as much space as it needs and doesn't have any vertical margin or padding.
 
 3. What are the 4 areas of the box model?
 
+    Margin>Border>Padding>Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+    It allows multiple devs to work on a project using branches, making and committing changes, without pausing or influencing each other's work. Branches can be merged at any time with ease.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
