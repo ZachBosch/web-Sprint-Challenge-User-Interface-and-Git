@@ -65,9 +65,10 @@ h1, h2, h3, h4, h5 {
 .header {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin:0 15%;
+    align-items: flex-end;
+    margin: 1% 17% 2%;
 }
+
 .top-nav {
     display: contents;
     text-decoration: none;
@@ -86,7 +87,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 2% 22%;
     border-bottom: 1px dashed black;
 }
 
@@ -99,17 +100,19 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 0 22%;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin: 2% 0;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 2% 0;
 }
 
 .middle-content .boxes .box {
@@ -125,8 +128,8 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
+    margin: 2% 23%;
 }
 
 .bottom-content .text-container {
@@ -138,8 +141,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 57%;
     background: black;
+    margin:0% 0% 0% 22%;
 }
 
 footer nav {
