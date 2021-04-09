@@ -70,8 +70,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-nav {
-    display: contents;
-    text-decoration: none;
+    display: contents
 }
 
 p {
@@ -95,6 +94,23 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.top-content .about-text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-btn {
+  border: 2px solid black;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 2% 66% 0 0;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .middle-content {
