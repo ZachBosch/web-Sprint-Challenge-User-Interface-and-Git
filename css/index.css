@@ -67,10 +67,15 @@ h1, h2, h3, h4, h5 {
     justify-content: space-evenly;
     align-items: flex-end;
     margin: 1% 17% 2%;
+    color: black;
 }
 
 .top-nav {
-    display: contents
+    display: contents;
+}
+
+.top-nav a {
+    color:black;
 }
 
 p {
